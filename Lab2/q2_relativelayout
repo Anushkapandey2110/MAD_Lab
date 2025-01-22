@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="HelloRelativeLayout"
+        android:textColor="#FFFFFF"
+        android:background="#717171"
+        android:textSize="20dp"/>
+
+    <TextView
+
+        android:id="@+id/txtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv2"
+        android:layout_alignStart="@+id/txtv2"
+
+        android:text="Type here:"
+        android:textColor="#D3CCCC"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/etxt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@+id/txtv1"
+        android:background="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etxt1"
+        android:layout_alignRight="@+id/etxt1"
+        android:layout_marginRight="100dp"
+
+
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#D3CCCC"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etxt1"
+        android:layout_alignRight="@+id/etxt1"
+
+
+
+
+
+
+        android:backgroundTint="#D3CCCC"
+        android:text="OK" />
+
+
+</RelativeLayout>
