@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sports">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Gautam Gambhir Explains How Rift Rumours During Australia Tour Were Triggered"
+        android:textStyle="bold"
+        android:textSize="40dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:src="@tools:sample/avatars"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+
+        android:text="Living up to his reputation of not mincing words, India head coach Gautam Gambhir mocked those spreading rumours of a rift in the Indian team. On Team India's previous tour, away to Australia, reports of there being divide in the Indian team emerged. As results went against the Indian team Down Under, the defeats against Australia further fuelled the rumours, but Gambhir decided to maintain his silence on the matter. However, after helping the Indian team secure a 4-1 T20I series win against England, Gambhir decided to give it back to those spreading the rumours" />
+
+</FrameLayout>
