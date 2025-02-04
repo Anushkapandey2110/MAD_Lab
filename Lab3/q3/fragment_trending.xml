@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trending">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Elon Musk slams 40-hour work week, internet fires back: ‘This clown plays video games half the day'"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:src="@tools:sample/avatars"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:layout_gravity="bottom"
+
+        android:text="To put that into perspective, Musk is claiming that people at the US government department work 17 hours every day, without any weekends to relax. Or they work 24 hours a day for five days straight, taking no time to sleep.
+
+“DOGE is working 120 hour a week. Our bureaucratic opponents optimistically work 40 hours a week. That is why they are losing so fast,” Musk wrote, responding to a post targeting Democrats." />
+
+</FrameLayout>
